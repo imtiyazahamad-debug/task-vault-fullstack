@@ -53,7 +53,7 @@ src/
  │    └── module.ts
  ├── app.module.ts
  └── main.ts
-
+```
 ---
 
 ### Frontend (React)
@@ -67,29 +67,30 @@ src/
  ├── App.tsx
  └── main.tsx
 ---
+```
 
 ### Environment Setup
 #### Backend .env
 ```env
 PORT=3000
 MONGODB_URI=your_mongodb_connection_string
-
+```
 ### Frontend .env
 ```env
 VITE_API_BASE_URL=http://localhost:3000
-
+```
 ---
 ### How to Run Locally
 #### Backend
 ```bash
 npm install
 npm run start:dev
-
+```
 #### Frontend
 ```bash
 npm install
 npm run dev
-
+```
 ---
 ## **Author**
 
